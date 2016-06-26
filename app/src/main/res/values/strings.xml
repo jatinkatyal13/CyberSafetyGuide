@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Cyber Safety Guide</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dodont">Do\'s and Don\'t</string>
+    <string name="Info">Information</string>
+    <string name="Send">Send</string>
+    <string name="next">Next</string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_about_us">Information</string>
+    <string name="title_activity_guideline">Guidelines</string>
+    <string name="title_activity_useful_links">Useful Links</string>
+    <string name="title_activity_report_crime">Report Crime</string>
+    <string name="title_activity_victim">Victim</string>
+    <string name="title_activity_victim_display">Victim</string>
+    <string name="title_activity_cyber_cells">Cyber Cells</string>
+    <string name="title_activity_sign_in">Sign In</string>
+    <string name="title_activity_volunteer">Volunteer Form</string>
+    <string name="title_activity_workshop">Workshop</string>
+    <string name="title_activity_consult_expert">Consult Expert</string>
+
+    <string name="FacebookAppId">247131802326391</string>
+
+    <string name="title_activity_cyber_cells_display">Cyber Cells</string>
+    <string name="title_activity_threats">Cyber Threats</string>
+    <string name="title_activity_threat_display">Cyber Threats</string>
+    <string name="title_activity_report_abuse">Report an Abuse</string>
+    <string name="title_activity_report">Report an Abuse</string>
+</resources>

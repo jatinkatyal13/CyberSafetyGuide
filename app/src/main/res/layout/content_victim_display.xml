@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.android.guide.safety.cybersafetyguide.victim_display"
+    tools:showIn="@layout/activity_victim_display"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <pl.pawelkleczkowski.customgauge.CustomGauge
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/gauge"
+                android:padding="10dp"
+                app:startValue="0"
+                app:endValue="100"
+                app:sweepAngel="270"
+                app:strokeWidth="10dp"
+                app:strokeCap="ROUND"
+                app:startAngel="135"
+                app:pointStartColor="@android:color/holo_red_light"
+                app:pointEndColor="@android:color/holo_red_light"/>
+            <TextView
+                android:id="@+id/gaugeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/gauge"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="48dp"
+                android:text="0"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/vuln_text"
+                    android:text="Vulnerability Level"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Contact Cyber Expert"
+                    android:padding="15dp"
+                    android:id="@+id/send"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:shadowColor="@android:color/darker_gray"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

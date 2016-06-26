@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@drawable/background">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/logo"
+                android:scaleType="fitCenter"
+                android:layout_centerHorizontal="true"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:id="@+id/otp_layout"
+                android:layout_centerHorizontal="true">
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/otp_layout"
+                android:id="@+id/otp_layout1"
+                android:layout_centerHorizontal="true">
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="Phone" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/otp_layout1"
+                android:id="@+id/otp_layout2"
+                android:layout_centerHorizontal="true">
+
+                <EditText
+                    android:id="@+id/pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="Password" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/otp_layout2"
+                android:id="@+id/otp_layout3"
+                android:layout_centerHorizontal="true">
+
+                <EditText
+                    android:id="@+id/pass2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="Confirm Password" />
+
+            </android.support.design.widget.TextInputLayout>
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_below="@+id/otp_layout3"
+                android:layout_centerHorizontal="true">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Register"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/register"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
