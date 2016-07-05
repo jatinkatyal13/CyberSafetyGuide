@@ -15,6 +15,9 @@
             android:id="@+id/nav_volunteer"
             android:title="Be a Volunteer" />
         <item
+            android:id="@+id/nav_case_study"
+            android:title="Case Studies" />
+        <item
             android:id="@+id/nav_credits"
             android:title="Credits" />
     </group>

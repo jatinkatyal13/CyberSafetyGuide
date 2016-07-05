@@ -9,7 +9,7 @@
     android:paddingRight="8dp"
     android:paddingTop="8dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.android.guide.safety.cybersafetyguide.victim"
+    tools:context="com.guide.safety.cybersafetyguide.victim"
     tools:showIn="@layout/activity_victim"
     android:id="@+id/victim_refresh_layout">
         <ListView

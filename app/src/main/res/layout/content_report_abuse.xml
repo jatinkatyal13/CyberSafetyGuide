@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.android.guide.safety.cybersafetyguide.report_abuse"
+    tools:context="com.guide.safety.cybersafetyguide.report_abuse"
     tools:showIn="@layout/activity_report_abuse">
     <ScrollView
         android:layout_width="match_parent"

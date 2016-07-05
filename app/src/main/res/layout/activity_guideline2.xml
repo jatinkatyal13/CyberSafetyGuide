@@ -6,7 +6,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:fitsSystemWindows="true"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    tools:context="com.android.guide.safety.cybersafetyguide.Guideline"
     android:orientation="vertical">
 
     <LinearLayout
@@ -40,7 +39,7 @@
                 android:elevation="6dp"
                 app:tabTextColor="#d3d3d3"
                 app:tabSelectedTextColor="#ffffff"
-                app:tabIndicatorColor="#ff00ff"
+                app:tabIndicatorColor="@color/colorAccent"
                 android:minHeight="?attr/actionBarSize"
                 />
 

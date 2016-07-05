@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.safety.cybersafetyguide">
+    package="com.guide.safety.cybersafetyguide">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -15,12 +16,12 @@
             android:value="@string/FacebookAppId" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.guide.safety.cybersafetyguide.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"
             android:configChanges="orientation|screenSize"/>
         <activity
-            android:name=".Splash"
+            android:name="com.guide.safety.cybersafetyguide.Splash"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
@@ -31,138 +32,138 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".about_us"
+            android:name="com.guide.safety.cybersafetyguide.about_us"
             android:label="@string/title_activity_about_us"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.MainActivity" />
+                android:value="com.guide.safety.cybersafetyguide.MainActivity" />
         </activity>
 
         <service
-            android:name=".background"
+            android:name="com.guide.safety.cybersafetyguide.background"
             android:enabled="true"
             android:exported="true" />
 
         <activity
-            android:name=".victim"
+            android:name="com.guide.safety.cybersafetyguide.victim"
             android:label="@string/title_activity_victim"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.guide.safety.cybersafetyguide.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.MainActivity" />
+                android:value="com.guide.safety.cybersafetyguide.MainActivity" />
         </activity>
         <activity
-            android:name=".victim_display"
+            android:name="com.guide.safety.cybersafetyguide.victim_display"
             android:label="@string/title_activity_victim_display"
-            android:parentActivityName=".victim"
+            android:parentActivityName="com.guide.safety.cybersafetyguide.victim"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.victim" />
+                android:value="com.guide.safety.cybersafetyguide.victim" />
         </activity>
         <activity
-            android:name=".Guideline"
+            android:name="com.guide.safety.cybersafetyguide.Guideline"
             android:label="@string/title_activity_guideline"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.guide.safety.cybersafetyguide.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.MainActivity" />
+                android:value="com.guide.safety.cybersafetyguide.MainActivity" />
         </activity>
         <activity
-            android:name=".cyber_cells"
+            android:name="com.guide.safety.cybersafetyguide.cyber_cells"
             android:label="@string/title_activity_cyber_cells"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.guide.safety.cybersafetyguide.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.MainActivity" />
+                android:value="com.guide.safety.cybersafetyguide.MainActivity" />
         </activity>
-        <activity android:name=".sign_in" />
-        <activity android:name=".under_construction">
+        <activity android:name="com.guide.safety.cybersafetyguide.sign_in" />
+        <activity android:name="com.guide.safety.cybersafetyguide.under_construction">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.MainActivity" />
+                android:value="com.guide.safety.cybersafetyguide.MainActivity" />
         </activity>
         <activity
-            android:name=".consult_expert"
+            android:name="com.guide.safety.cybersafetyguide.consult_expert"
             android:label="@string/title_activity_consult_expert"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.guide.safety.cybersafetyguide.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.MainActivity" />
+                android:value="com.guide.safety.cybersafetyguide.MainActivity" />
         </activity>
         <activity
-            android:name=".cyber_cells_display"
+            android:name="com.guide.safety.cybersafetyguide.cyber_cells_display"
             android:label="@string/title_activity_cyber_cells_display"
-            android:parentActivityName=".cyber_cells"
+            android:parentActivityName="com.guide.safety.cybersafetyguide.cyber_cells"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.cyber_cells" />
+                android:value="com.guide.safety.cybersafetyguide.cyber_cells" />
         </activity>
         <activity
-            android:name=".threats"
+            android:name="com.guide.safety.cybersafetyguide.threats"
             android:label="@string/title_activity_threats"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.guide.safety.cybersafetyguide.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.MainActivity" />
+                android:value="com.guide.safety.cybersafetyguide.MainActivity" />
         </activity>
         <activity
-            android:name=".threat_display"
+            android:name="com.guide.safety.cybersafetyguide.threat_display"
             android:label="@string/title_activity_threat_display"
-            android:parentActivityName=".threats"
+            android:parentActivityName="com.guide.safety.cybersafetyguide.threats"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.threats" />
+                android:value="com.guide.safety.cybersafetyguide.threats" />
         </activity>
-        <activity android:name=".sign_in_2" />
-        <activity android:name=".reset_pass" />
-        <activity android:name=".reset_pass_2" />
-        <activity android:name=".change_pass" />
-        <activity android:name=".registration" />
+        <activity android:name="com.guide.safety.cybersafetyguide.sign_in_2" />
+        <activity android:name="com.guide.safety.cybersafetyguide.reset_pass" />
+        <activity android:name="com.guide.safety.cybersafetyguide.reset_pass_2" />
+        <activity android:name="com.guide.safety.cybersafetyguide.change_pass" />
+        <activity android:name="com.guide.safety.cybersafetyguide.registration" />
         <activity
-            android:name=".welcome"
+            android:name="com.guide.safety.cybersafetyguide.welcome"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-        <activity android:name=".login" />
-        <activity android:name=".expert_panel">
+        <activity android:name="com.guide.safety.cybersafetyguide.login" />
+        <activity android:name="com.guide.safety.cybersafetyguide.expert_panel">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.about_us" />
+                android:value="com.guide.safety.cybersafetyguide.about_us" />
         </activity>
-        <activity android:name=".developer_panel">
+        <activity android:name="com.guide.safety.cybersafetyguide.developer_panel">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.about_us" />
+                android:value="com.guide.safety.cybersafetyguide.about_us" />
         </activity>
         <activity
-            android:name=".report"
+            android:name="com.guide.safety.cybersafetyguide.report"
             android:label="@string/title_activity_report"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.guide.safety.cybersafetyguide.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.MainActivity" />
+                android:value="com.guide.safety.cybersafetyguide.MainActivity" />
         </activity>
         <activity
-            android:name=".report_abuse"
+            android:name="com.guide.safety.cybersafetyguide.report_abuse"
             android:label="@string/title_activity_report_abuse"
-            android:parentActivityName=".report"
+            android:parentActivityName="com.guide.safety.cybersafetyguide.report"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.guide.safety.cybersafetyguide.report" />
+                android:value="com.guide.safety.cybersafetyguide.report" />
         </activity>
 
         <service
-            android:name=".first"
+            android:name="com.guide.safety.cybersafetyguide.first"
             android:enabled="true"
             android:exported="true"></service>
     </application>

@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.android.guide.safety.cybersafetyguide.victim_display"
+    tools:context="com.guide.safety.cybersafetyguide.victim_display"
     tools:showIn="@layout/activity_victim_display"
     android:orientation="vertical">
     <LinearLayout

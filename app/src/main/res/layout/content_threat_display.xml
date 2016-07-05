@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="8dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.android.guide.safety.cybersafetyguide.threat_display"
+    tools:context="com.guide.safety.cybersafetyguide.threat_display"
     tools:showIn="@layout/activity_threat_display">
     <ScrollView
         android:layout_width="match_parent"
