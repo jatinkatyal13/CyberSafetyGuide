@@ -169,7 +169,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:text="IT Facilitator"
+                            android:text="Founder &amp; IT expert"
                             android:layout_below="@+id/textView6"
                             android:layout_toRightOf="@+id/view3"
                             android:layout_toEndOf="@+id/view3" />
