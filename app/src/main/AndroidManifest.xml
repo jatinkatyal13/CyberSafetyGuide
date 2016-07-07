@@ -138,11 +138,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.guide.safety.cybersafetyguide.about_us" />
         </activity>
-        <activity android:name="com.guide.safety.cybersafetyguide.developer_panel">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.guide.safety.cybersafetyguide.about_us" />
-        </activity>
         <activity
             android:name="com.guide.safety.cybersafetyguide.report"
             android:label="@string/title_activity_report"

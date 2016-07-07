@@ -65,7 +65,7 @@
                 android:id="@+id/textView2"
                 android:textSize="12dp"
                 android:layout_centerHorizontal="true"
-                android:text="Disclaimer: This app is to provide information about cyber security and we are not responsible for any further communication between expert and end user"
+                android:text="Disclaimer: This app is providing general information about cyber safety and is not responsible for further communication of expert and end user"
                 android:gravity="center"
                 android:textColor="#000000"
                 android:padding="8dp"

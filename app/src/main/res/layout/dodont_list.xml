@@ -17,7 +17,7 @@
             android:padding="8dp"
             android:layout_gravity="left|center_vertical"
             android:layout_width="fill_parent"
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="#ffffff"
             android:layout_height="wrap_content"
             android:id="@+id/dodont_list_content"
             android:text="Some sample text that is very very long just to test my typing speed and the layoput arrangementsome more text to test the layout"/>

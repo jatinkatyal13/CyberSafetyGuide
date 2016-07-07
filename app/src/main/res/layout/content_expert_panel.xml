@@ -129,6 +129,54 @@
                 </android.support.v7.widget.CardView>
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:elevation="14dp"
+                    android:clickable="true">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_height="100dp"
+                            android:layout_width="100dp"
+                            android:maxHeight="10dp"
+                            android:maxWidth="10dp"
+                            android:src="@drawable/chandni"
+                            android:gravity="center"
+                            android:id="@+id/view3"
+                            android:layout_margin="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#000000"
+                            android:text="Chandni Agarwal"
+                            android:id="@+id/textView6"
+                            android:layout_marginTop="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/view3"
+                            android:layout_toEndOf="@+id/view3" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="IT Facilitator"
+                            android:layout_below="@+id/textView6"
+                            android:layout_toRightOf="@+id/view3"
+                            android:layout_toEndOf="@+id/view3" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
