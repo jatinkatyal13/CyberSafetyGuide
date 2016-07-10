@@ -157,10 +157,6 @@
                 android:value="com.guide.safety.cybersafetyguide.report" />
         </activity>
 
-        <service
-            android:name="com.guide.safety.cybersafetyguide.first"
-            android:enabled="true"
-            android:exported="true"></service>
     </application>
 
 </manifest>
